@@ -1,0 +1,129 @@
+body{
+	font-size:16px;
+	color:#fff;
+	background-color: #61122f;
+	font-family: 'Slabo 27px', serif;
+}
+
+.container{
+	margin: 0px;
+}
+
+#header-nav{
+	background-color: #f6b319;
+	border:0;
+	border-radius: 0;
+
+}
+
+.navbar-brand h1{
+	font-family: 'Slabo 27px',serif;
+	color: #557c3e;
+	font-size:1.8em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle{
+
+}
+
+#nav-list{
+	margin-top:5px;
+}
+
+#nav-list a{
+	color:#951C49;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #e7e7e7;
+}
+
+#nav-list a span{
+	font-size: 1.6em;
+}
+
+.page-Header
+{
+	font-family: 'Slabo 27px',serif;
+	color: #f6b319;
+	font-size:1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 15px;
+	line-height: .75;
+}
+
+#Chicken-tile, #beef-tile, #sushi-tile{
+	height:auto;
+	width:100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	position: relative;
+	border:2px solid #3f0c1f;
+	overflow: hidden;
+	background-color: #f9e79f;
+}
+
+#Chicken-tile p, #beef-tile p, #sushi-tile p{
+	font-family: serif;
+	width: 90%;
+	text-align: justify;
+	font-size: 1.1em;
+	color:black;
+	margin:15px;
+}
+
+#Chicken-tile h3, #beef-tile h3, #sushi-tile h3{
+	Color:#000;
+}
+
+#Chicken-tile a, #beef-tile a, #sushi-tile a{
+	Color:#000;
+	margin:10px;
+	font-family: serif;
+	text-decoration: underline;
+	text-align: right;
+}
+
+#Chicken-tile a:hover, #beef-tile a:hover, #sushi-tile a:hover{
+	background-color: #61122f;
+	color:#ffffff;
+}
+
+/*****************Large Devices Only***********/
+@media (min-width: 1200px){
+
+
+}
+
+
+/****************Medium Devices Only************/
+@media (min-width:992px) and (max-width: 1199px){
+
+
+}
+
+/*****************Small Devices Only***********/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+
+/****************Extra Small devices only************/
+@media (max-width: 767px){
+
+
+
+}

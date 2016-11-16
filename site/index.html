@@ -8,35 +8,92 @@
 	<title>Assignment 2</title>
 	<!--Css Stylesheets-->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet"> 
 	<!--Javascript Files-->
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	
 </head>
 <body>
-<h1>Our Menu</h1>
-<div class="row">
-	<div class="col-lg-4 col-md-6 col-sm-12">
-			<SECTION>						
-					<h2 id="sectionTitle">Chicken</h2>
-					<p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<header>
+	<nav id="header-nav" class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<!--Header-->
+			<div class="navbar-brand">
+				<h1>Food, LLC</h1>
+			</div>	
+
+			<!--Collapsible Button-->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+				<span class="sr-only">Toggle Navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div> 
+
+		<div id="collapsable-nav" class = "collapse navbar-collapsed">
+			<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+				<li>
+					<a href="#p1">
+						<span>Chicken</span>
+					</a>
+				</li>
+				<li>
+					<a href="#p2">
+						<span>Beef</span>
+					</a>
+				</li>
+				<li>
+					<a href="#p3">
+						<span>Sushi</span>
+					</a>
+				</li>
+			</ul>
+		</div>
 				
-			</SECTION>
 	</div>
-	<div class="col-lg-4 col-md-6 col-sm-12">
-		<SECTION>				
-					<h2 id="sectionTitle">Beef</h2>
-					<p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			</SECTION>		
+	</nav>
+</header>
+
+<h2 class="text-center page-Header"> Our Menu </h2>
+
+<div id="Main-content" class="container-fluid">
+	<div id="Menu-tiles" class="row">
+		<div class="col-md-4 col-sm-6 col-xs-12">
+			<div id="Chicken-tile">
+				<h3 class="text-center" id="p1">Chicken</h3>
+				<p>
+					lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. orem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+				</p>
+				<a href="#header-nav" class="pull-right">Back to Top</a>
+			</div>
+		</div> 
+
+		<div class="col-md-4 col-sm-6 col-xs-12">
+			<div id="beef-tile">
+				<h3 class="text-center" id="p2">Beef</h3>
+				<p>
+					lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. orem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+				</p>
+				<a href="#header-nav" class="pull-right">Back to Top</a>
+			</div>
+		</div> 
+
+		<div class="col-md-4 col-sm-12 col-xs-12">
+			<div id="sushi-tile">
+				<h3 class="text-center" id="p3">Sushi</h3>
+				<p>
+					lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. orem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+				</p>
+				<a href="#header-nav" class="pull-right">Back to Top</a>
+			</div>
+		</div> 
+
 	</div>
-	<div class="col-lg-4 col-md-12 col-sm-12">
-		<SECTION>				
-					<h2 id="sectionTitle">Sushi</h2>
-					<p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euismod tempor inciduit ut labore et dolore madna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			</SECTION>
-	</div>
-	
 </div>
+
 </body>
 </html>
